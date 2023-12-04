@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8" /> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+
+        <script type="text/javascript" src="studentdata.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="studentdata.js"></script>
+    </head>
+    <body>
+        <nav>
+            <a href="studentdata.html">home</a> 
+            <a href="attendence.html">attendance</a> 
+        </nav>
+
+    <title>
+        Attendence
+    </title>
+    <script type="text/javascript" src="attendence.js"></script>
+
+        <form method="get" action="http://localhost/attendence4/attendencephp.php">
+            <table id="stable">
+                <img src="images/Attendanceimg.png" style="width:20%;height: 15%;border-radius: 20%; padding-bottom: 2%;"/>
+                <br>
+        <input type="submit" value="Attendence ">
+    </table>
+        </form>
+        <form method="get" action="http://localhost/attendence4/show.php">
+            <table id="stable">
+                <img src="images/crosscheck.jpg" style="width:20%;height: 15%;border-radius: 20%; padding-bottom: 2%;"/>
+                <br>
+        <input type="submit" value="showdetails " name="att">
+    </table>
+        </form>
+    </body>
+</html>
