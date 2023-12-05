@@ -52,7 +52,6 @@ input[type="text"],
 input[type="password"] {
     width: 60%;
     padding: 10px;
-    font-size:5%;
     margin: 5px 0 15px;
     border: none;
     color:rgb(255, 255, 255);
@@ -71,8 +70,7 @@ input[type="submit"] {
     background-color: rgb(199, 215, 245);
     box-shadow: 15px 10px 18px rgba(6, 98, 237, 0.395);
     color: rgba(227, 25, 25, 0.764);
-    padding: 10px 20px;
-    font-size: large;
+    padding: 10px 2px;
     font-style: oblique;
     text-decoration: underline;
     border: none;
@@ -86,7 +84,6 @@ button {
     box-shadow: 15px 10px 18px rgba(6, 98, 237, 0.395);
     color: rgba(227, 25, 25, 0.764);
     padding: 10px 20px;
-    font-size: large;
     font-style: oblique;
     text-decoration: underline;
     border: none;
